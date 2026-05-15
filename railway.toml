@@ -1,3 +1,4 @@
+# LYO Backend Config
 [build]
 command = "cd lyo-backend && npm install && npx prisma generate"
 
