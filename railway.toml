@@ -1,6 +1,5 @@
-# LYO Backend Config
 [build]
-command = "cd lyo-backend && npm install && npx prisma generate"
+command = "npm install && npx prisma generate"
 
 [deploy]
-startCommand = "cd lyo-backend && npx tsx src/server.ts"
+startCommand = "npx tsx src/server.ts"
