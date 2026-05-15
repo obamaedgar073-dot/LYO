@@ -1,1 +1,0 @@
-{ "build": { "builder": "NIXPACKS", "buildCommand": "cd lyo-backend && npm install && npx prisma generate" }, "deploy": { "startCommand": "cd lyo-backend && npm start", "restartPolicyType": "ON_FAILURE" } } 
