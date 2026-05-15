@@ -1,5 +1,5 @@
-[build] 
-command = "npm install && npx prisma generate && npx prisma migrate deploy" 
- 
-[deploy] 
-startCommand = "npm start" 
+[build]
+command = "npm install"
+
+[deploy]
+startCommand = "npx ts-node -r tsconfig-paths/register src/server.ts"
