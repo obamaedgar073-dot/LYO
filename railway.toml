@@ -1,5 +1,0 @@
-[build]
-command = "npm install && npx prisma generate"
-
-[deploy]
-startCommand = "npx tsx src/server.ts"
