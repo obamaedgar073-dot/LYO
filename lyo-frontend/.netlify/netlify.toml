@@ -10,6 +10,7 @@ redirects = []
 publish = "C:\\Users\\ADMIN\\OneDrive\\Desktop\\LYO\\lyo-frontend\\dist"
 publishOrigin = "config"
 commandOrigin = "config"
+base = "C:\\Users\\ADMIN\\OneDrive\\Desktop\\LYO\\lyo-frontend"
 command = "npx vite build"
 
 [build.environment]
